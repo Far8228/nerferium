@@ -1,0 +1,242 @@
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Teleport = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local View = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextBox = Instance.new("TextBox")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local autostomp = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.189999998, 0, 0.102999978, 0)
+MainFrame.Size = UDim2.new(0, 811, 0, 504)
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = MainFrame
+
+Teleport.Name = "Teleport"
+Teleport.Parent = MainFrame
+Teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Teleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.BorderSizePixel = 0
+Teleport.Position = UDim2.new(0.0172625631, 0, 0.871031761, 0)
+Teleport.Size = UDim2.new(0, 150, 0, 50)
+Teleport.Font = Enum.Font.SourceSans
+Teleport.Text = "Teleport"
+Teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.TextSize = 14.000
+
+UICorner_2.Parent = Teleport
+
+View.Name = "View"
+View.Parent = MainFrame
+View.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+View.BorderColor3 = Color3.fromRGB(0, 0, 0)
+View.BorderSizePixel = 0
+View.Position = UDim2.new(0.233045548, 0, 0.871031761, 0)
+View.Size = UDim2.new(0, 150, 0, 50)
+View.Font = Enum.Font.SourceSans
+View.Text = "View"
+View.TextColor3 = Color3.fromRGB(0, 0, 0)
+View.TextSize = 14.000
+
+UICorner_3.Parent = View
+
+Frame.Parent = MainFrame
+Frame.BackgroundColor3 = Color3.fromRGB(231, 179, 230)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.243368685, 0, 0.409015894, 0)
+Frame.Size = UDim2.new(0, 453, 0, 139)
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = Frame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(239, 179, 230)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 179, 230))}
+UIGradient.Parent = Frame
+
+TextBox.Parent = MainFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.250308275, 0, 0.422619045, 0)
+TextBox.Size = UDim2.new(0, 440, 0, 125)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 50.000
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = TextBox
+
+TextButton.Parent = MainFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.935881555, 0, -0.0158730168, 0)
+TextButton.Size = UDim2.new(0, 60, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "-"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 30.000
+
+autostomp.Name = "autostomp"
+autostomp.Parent = MainFrame
+autostomp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+autostomp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+autostomp.BorderSizePixel = 0
+autostomp.Position = UDim2.new(0.450061589, 0, 0.871031761, 0)
+autostomp.Size = UDim2.new(0, 150, 0, 50)
+autostomp.Font = Enum.Font.SourceSans
+autostomp.Text = "auto stomp"
+autostomp.TextColor3 = Color3.fromRGB(0, 0, 0)
+autostomp.TextSize = 14.000
+
+UICorner_6.Parent = autostomp
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.400739819, 0, 0.289682537, 0)
+TextLabel.Size = UDim2.new(0, 189, 0, 51)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "nerferium"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 44.000
+
+-- Scripts:
+
+local function BCHVOF_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	-- Services and Variables
+	local players = game:GetService("Players")
+	local runService = game:GetService("RunService")
+	local localPlayer = players.LocalPlayer
+	local camera = game.Workspace.CurrentCamera
+	local isSpectating = false  -- Flag to track spectating state
+	local originalCameraSubject = camera.CameraSubject  -- Store the original camera subject
+	local mainFrame = script.Parent.Parent -- Assuming the script is inside the MainFrame
+	local textbox = mainFrame:WaitForChild("TextBox") -- TextBox inside MainFrame
+	local teleportButton = mainFrame:WaitForChild("Teleport") -- Teleport button
+	local viewButton = mainFrame:WaitForChild("View") -- View button
+	local autoStompButton = mainFrame:WaitForChild("autostomp") -- AutoStomp button
+	
+	if game.PlaceId == 2788229376 then
+		MainEvent = game:GetService('ReplicatedStorage').MainEvent
+	end
+	
+	local autoStompEnabled = false  -- Toggle for auto-stomp
+	
+	local function findPlayerByName(inputName)
+		inputName = inputName:lower()
+		for _, player in ipairs(players:GetPlayers()) do
+			if player.Name:lower():sub(1, #inputName) == inputName or player.DisplayName:lower():sub(1, #inputName) == inputName then
+				return player
+			end
+		end
+		return nil
+	end
+	
+	local function teleportToPlayer(playerToTeleportTo)
+		if localPlayer.Character and playerToTeleportTo.Character then
+			localPlayer.Character:SetPrimaryPartCFrame(playerToTeleportTo.Character.HumanoidRootPart.CFrame)
+		end
+	end
+	
+	local function isKnocked(player)
+		local bodyEffects = player.Character and player.Character:FindFirstChild("BodyEffects")
+		return bodyEffects and bodyEffects:FindFirstChild("K.O") and bodyEffects["K.O"].Value
+	end
+	
+	local function isGrabbed(player)
+		return player.Character and player.Character:FindFirstChild("GRABBING_CONSTRAINT")
+	end
+	
+	-- Auto-Stomp Function (with Toggle)
+	local function autoStomp()
+		autoStompEnabled = not autoStompEnabled -- Toggle the function
+		autoStompButton.Text = autoStompEnabled and "Auto Stomp: ON" or "Auto Stomp: OFF"
+	
+		if autoStompEnabled then
+			task.spawn(function()
+				while autoStompEnabled do
+					local target = findPlayerByName(textbox.Text)
+					if target and target.Character and isKnocked(target) and not isGrabbed(target) then
+						local lastPos = localPlayer.Character:WaitForChild("HumanoidRootPart").Position
+						localPlayer.Character:MoveTo(target.Character.UpperTorso.Position)
+						task.wait(0.2) -- Allow time for teleport
+						MainEvent:FireServer("Stomp") -- Stomp action
+						task.wait(0.2)
+						localPlayer.Character:MoveTo(lastPos) -- Return to original position
+					end
+					task.wait(0.1) -- Reduce delay for responsiveness
+				end
+			end)
+		end
+	end
+	
+	-- Button Event Listeners
+	autoStompButton.MouseButton1Click:Connect(autoStomp)
+	
+	teleportButton.MouseButton1Click:Connect(function()
+		local target = findPlayerByName(textbox.Text)
+		if target then
+			teleportToPlayer(target)
+		end
+	end)
+	
+	viewButton.MouseButton1Click:Connect(function()
+		local target = findPlayerByName(textbox.Text)
+		if target then
+			if not isSpectating then
+				camera.CameraSubject = target.Character:WaitForChild("Humanoid")
+				isSpectating = true
+			else
+				camera.CameraSubject = localPlayer.Character:WaitForChild("Humanoid")
+				isSpectating = false
+			end
+		end
+	end)
+	
+	-- Track the player's character reset
+	localPlayer.CharacterAdded:Connect(function(newCharacter)
+		wait(0.1)
+		camera.CameraSubject = localPlayer.Character:WaitForChild("Humanoid")
+	end)
+	
+	-- Reset the camera when the spectating player dies or resets
+	localPlayer.Character:WaitForChild("Humanoid").Died:Connect(function()
+		wait(0.1)
+		camera.CameraSubject = localPlayer.Character:WaitForChild("Humanoid")
+	end)
+	
+end
+coroutine.wrap(BCHVOF_fake_script)()
+local function VFDR_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(VFDR_fake_script)()
