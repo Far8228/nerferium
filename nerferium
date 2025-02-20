@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -126,7 +131,7 @@ TextLabel.TextSize = 44.000
 
 -- Scripts:
 
-local function BCHVOF_fake_script() -- TextBox.LocalScript 
+local function WLBW_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	-- Services and Variables
@@ -185,9 +190,7 @@ local function BCHVOF_fake_script() -- TextBox.LocalScript
 					if target and target.Character and isKnocked(target) and not isGrabbed(target) then
 						local lastPos = localPlayer.Character:WaitForChild("HumanoidRootPart").Position
 						localPlayer.Character:MoveTo(target.Character.UpperTorso.Position)
-						task.wait(0.2) -- Allow time for teleport
-						MainEvent:FireServer("Stomp") -- Stomp action
-						task.wait(0.2)
+						task.wait(0.4) -- Allow time for teleport
 						localPlayer.Character:MoveTo(lastPos) -- Return to original position
 					end
 					task.wait(0.1) -- Reduce delay for responsiveness
@@ -232,11 +235,11 @@ local function BCHVOF_fake_script() -- TextBox.LocalScript
 	end)
 	
 end
-coroutine.wrap(BCHVOF_fake_script)()
-local function VFDR_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(WLBW_fake_script)()
+local function NJKW_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(VFDR_fake_script)()
+coroutine.wrap(NJKW_fake_script)()
